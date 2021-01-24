@@ -4,37 +4,6 @@
   <h4>Face Mask Detection system built with OpenCV, Keras/TensorFlow using Deep Learning and Computer Vision concepts in order to detect face masks in static images as well as in real-time video streams.</h4>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![Python](https://img.shields.io/badge/python-v3.6+-blue.svg)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/chandrikadeb7/Face-Mask-Detection/issues)
-[![Forks](https://img.shields.io/github/forks/chandrikadeb7/Face-Mask-Detection.svg?logo=github)](https://github.com/chandrikadeb7/Face-Mask-Detection/network/members)
-[![Stargazers](https://img.shields.io/github/stars/chandrikadeb7/Face-Mask-Detection.svg?logo=github)](https://github.com/chandrikadeb7/Face-Mask-Detection/stargazers)
-[![Issues](https://img.shields.io/github/issues/chandrikadeb7/Face-Mask-Detection.svg?logo=github)](https://github.com/chandrikadeb7/Face-Mask-Detection/issues)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555)](https://www.linkedin.com/in/chandrika-deb/)
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![Live Demo](https://github.com/chandrikadeb7/Face-Mask-Detection/blob/master/Readme_images/Demo.gif)
-
-## :point_down: Support me here!
-<a href="https://www.buymeacoffee.com/chandrikadeb7" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
-
-## :innocent: Motivation
-In the present scenario due to Covid-19, there is no efficient face mask detection applications which are now in high demand for transportation means, densely populated areas, residential districts, large-scale manufacturers and other enterprises to ensure safety. Also, the absence of large datasets of __‘with_mask’__ images has made this task more cumbersome and challenging. 
-
- 
-## :hourglass: Project Demo
-:movie_camera: [YouTube Demo Link](https://youtu.be/wYwW7gAYyxw)
-
-:computer: [Dev Link](https://dev.to/chandrikadeb7/face-mask-detection-my-major-project-3fj3)
-
-[![Already deployed version](https://raw.githubusercontent.com/vasantvohra/TrashNet/master/hr.svg)](https://face-mask--detection-app.herokuapp.com/)
-
-
-
-<p align="center"><img src="https://github.com/chandrikadeb7/Face-Mask-Detection/blob/master/Readme_images/Screen%20Shot%202020-05-14%20at%208.49.06%20PM.png" width="700" height="400"></p>
-
-
 ## :warning: TechStack/framework used
 
 - [OpenCV](https://opencv.org/)
@@ -65,35 +34,35 @@ The images used were real images of faces wearing masks. The images were collect
 
 All the dependencies and required libraries are included in the file <code>requirements.txt</code> [See here](https://github.com/chandrikadeb7/Face-Mask-Detection/blob/master/requirements.txt)
 
-## 🚀&nbsp; Installation
-1. Clone the repo
+## 🚀&nbsp; نصب
+1. ریپوزیتوری را کلون کنید
 ```
-$ git clone https://github.com/chandrikadeb7/Face-Mask-Detection.git
-```
-
-2. Change your directory to the cloned repo and create a Python virtual environment named 'test'
-```
-$ mkvirtualenv test
+$ git clone https://github.com/Hoss3inf/Face-Mask-Detection.git
 ```
 
-3. Now, run the following command in your Terminal/Command Prompt to install the libraries required
+2. به پوشه Face-Mask_Detection وارد شود
+```
+$ cd Face-Mask-Detection/
+```
+
+3. حالا کد زیر را اجرا کنید تا کتابخانه های مورد نیاز نصب شود
 ```
 $ pip3 install -r requirements.txt
 ```
 
-## :bulb: Working
+## :bulb: اجرا
 
-1. Open terminal. Go into the cloned project directory and type the following command:
+1. کامند پرامپت را باز کنید و دستور زیر را اجرا کنید
 ```
 $ python3 train_mask_detector.py --dataset dataset
 ```
 
-2. To detect face masks in an image type the following command: 
+2. برای تشخیص از طریق عکسی که داریم کد زیر را اجرا می کنیم
 ```
 $ python3 detect_mask_image.py --image images/pic1.jpeg
 ```
 
-3. To detect face masks in real-time video streams type the following command:
+3. برای تشخیص عکس از طریق وب کم به صورت زنده کد زیر را اجرا می کنیم
 ```
 $ python3 detect_mask_video.py 
 ```
